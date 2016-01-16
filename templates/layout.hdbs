@@ -1,0 +1,12 @@
+<header>
+  <span class="logo"></span>
+  <h3>{{setting "name"}}</h3>
+</header>
+<section data-main>
+    <button id="import">Import Contacts</button>
+</section>
+<footer>
+  <a href="mailto:{{author.email}}">
+    {{author.name}}
+  </a>
+</footer>

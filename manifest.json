@@ -1,0 +1,14 @@
+{
+  "name": "Bexio Contacts Importer",
+  "author": {
+    "name": "Tobias Kuendig",
+    "email": "tobias.kuendig@offlinegmbh.ch",
+    "url": "http://www.offlinegmbh.ch"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": "ticket_sidebar",
+  "singleInstall": true,
+  "version": "1.0",
+  "frameworkVersion": "1.0"
+}
