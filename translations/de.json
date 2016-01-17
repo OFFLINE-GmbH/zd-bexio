@@ -1,0 +1,27 @@
+{
+  "app": {
+    "package": "zd-bexio",
+    "description": {
+      "value": "Importiere Deine Bexio Kontakte in Zendesk",
+      "title": "Bexio Kontakte Importer für Zendesk"
+    },
+    "parameters": {
+      "company_id": {
+        "label": "Kürzel",
+        "helpText": "Siehe Einstellungen > Add-ons > API-Keys in Bexio"
+      },
+      "public_key": {
+        "label": "Public Key",
+        "helpText": "Siehe Einstellungen > Add-ons > API-Keys in Bexio"
+      },
+      "signature_key": {
+        "label": "Signature Key",
+        "helpText": "Siehe Einstellungen > Add-ons > API-Keys in Bexio"
+      },
+      "user_id": {
+        "label": "User ID",
+        "helpText": "Üblicherweise '1', kontaktiere den Bexio Support wenn Du diese ID nicht kennst"
+      }
+    }
+  }
+}

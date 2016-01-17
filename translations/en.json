@@ -1,54 +1,27 @@
 {
   "app": {
-    "package": "app_name",
+    "package": "zd-bexio",
     "description": {
-      "value": "Play the famous zen tunes in your help desk.",
-      "title": "app description"
+      "value": "Import your Bexio contacts into Zendesk",
+      "title": "Bexio Contacts Importer for Zendesk"
     },
-    "name": {
-      "value": "Buddha Machine",
-      "title": "app name"
+    "parameters": {
+      "company_id": {
+        "label": "Company ID",
+        "helpText": "See Settings > Addons > API-Keys in Bexio"
+      },
+      "public_key": {
+        "label": "Public Key",
+        "helpText": "See Settings > Addons > API-Keys in Bexio"
+      },
+      "signature_key": {
+        "label": "Signature Key",
+        "helpText": "See Settings > Addons > API-Keys in Bexio"
+      },
+      "user_id": {
+        "label": "User ID",
+        "helpText": "Usually '1', Please contact the bexio-support if you do not know this ID."
+      }
     }
-  },
-
-  "loading": {
-    "value": "Welcome to this Sample App",
-    "title": "loading placeholder"
-  },
-
-  "fetch": {
-    "done": {
-      "value": "Good",
-      "title": "fetch success"
-    },
-    "fail": {
-      "value": "failed to fetch information from the server",
-      "title": "fetch failure"
-    }
-  },
-
-  "id": {
-    "value": "ID",
-    "title": "user id"
-  },
-
-  "email": {
-    "value": "Email",
-    "title": "user email"
-  },
-
-  "name": {
-    "value": "Name",
-    "title": "user name"
-  },
-
-  "role": {
-    "value": "Role",
-    "title": "user role"
-  },
-
-  "groups": {
-    "value": "Groups",
-    "title": "user groups"
   }
 }
