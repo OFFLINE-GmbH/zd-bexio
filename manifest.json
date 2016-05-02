@@ -10,5 +10,32 @@
   "location": "ticket_sidebar",
   "singleInstall": true,
   "version": "1.0",
-  "frameworkVersion": "1.0"
+  "frameworkVersion": "1.0",
+  "parameters": [
+    {
+      "name": "company_id",
+      "type": "text",
+      "required": true,
+      "secure": true
+    },
+    {
+      "name": "public_key",
+      "type": "text",
+      "required": true,
+      "secure": true
+    },
+    {
+      "name": "signature_key",
+      "type": "text",
+      "required": true,
+      "secure": true
+    },
+    {
+      "name": "user_id",
+      "type": "text",
+      "default": 1,
+      "required": true,
+      "secure": true
+    }
+  ]
 }
